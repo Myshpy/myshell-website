@@ -74,3 +74,109 @@
     </footer>
 </body>
 </html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fdf2e9;
+    color: #333;
+}
+
+header {
+    background-color: #f78f1e;
+    padding: 15px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+header .logo img {
+    height: 85px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff5e0;
+}
+
+#hero .hero-text {
+    max-width: 50%;
+}
+
+#hero .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f78f1e;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#hero .hero-image img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+#about, #menu, #contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#menu .menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#menu .menu-items .item {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    text-align: center;
+}
+
+#menu .menu-items .item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#contact {
+    background-color: #fff5e0;
+    padding: 30px 0;
+}
+
+footer {
+    background-color: #f78f1e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
